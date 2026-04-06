@@ -1,6 +1,15 @@
 @tailwind components;
 
 @layer components {
+    #navbar{
+        font-family: 'Press Start 2P', system-ui;
+        font-size: 0.75em;
+    }
+
+    .title{
+        font-family: 'Press Start 2P', system-ui;
+    }
+
     .card-base {
         @apply rounded-[var(--radius-large)] overflow-hidden bg-[var(--card-bg)] transition;
     }
